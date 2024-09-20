@@ -1,0 +1,64 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #001933;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  header {
+    background-color: #0066cc;
+    padding: 20px 0;
+    text-align: center;
+  }
+  h1 {
+    color: #00ffff;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  .cta-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: pulse 1.5s infinite;
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  .ebook-display {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .ebook-item {
+    background-color: #003366;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,255,255,0.3);
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .social-icons svg {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    fill: #00ffff;
+  }
